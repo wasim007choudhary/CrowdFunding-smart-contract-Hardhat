@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+ Hardhat Project
+ ```
+A crowd Funding project which is unit tetsted with hardhat local developers environment and staging test on sepolia testnet.
+ The contract works on the official test testnet and can be done on the main net too.
+ THis contract offers a fund to be collected and which only the deployer/owner of the contract can withdraw and thus reseting the balance nill after withdrawing.Users can see the amount funded by other funders too.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+ ```
+The contract went with a 100% coverage during test and offering users for a cheaper Withdraw function in the .sol and test file for better gas optimisation
+```
+
