@@ -1,6 +1,6 @@
  Hardhat Project
  ```
-A crowd Funding project which is unit tetsted with hardhat local developers environment and staging test on sepolia testnet.
+A crowd Funding project which is unit tetsted with hardhat local developers environment and staging test on sepolia testnet which offer real time price feeds through AggregatorV3Interface which is tested and used on testnet and local devs through mocks usuing MockV3Interface.
  The contract works on the official test testnet and can be done on the main net too.
  THis contract offers a fund to be collected and which only the deployer/owner of the contract can withdraw and thus reseting the balance nill after withdrawing.Users can see the amount funded by other funders too.
 
